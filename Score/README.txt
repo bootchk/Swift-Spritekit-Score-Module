@@ -3,7 +3,7 @@ ScoreBoard Swift Module
 
 Copyright 2015 Lloyd Konneker
 
-Released under GPLv3.
+Released under MIT license.
 
 A pure-Swift module for a scoreboard in SpriteKit game.
 Game is solitary or two-player.
