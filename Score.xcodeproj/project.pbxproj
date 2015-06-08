@@ -10,6 +10,11 @@
 		5F13F2FC1B2483B300FF995D /* Score.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F13F2FB1B2483B300FF995D /* Score.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F13F3021B2483B300FF995D /* Score.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F13F2F61B2483B300FF995D /* Score.framework */; };
 		5F13F3091B2483B300FF995D /* ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F3081B2483B300FF995D /* ScoreTests.swift */; };
+		5F13F3291B259B8E00FF995D /* GameClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F3261B259B8E00FF995D /* GameClock.swift */; };
+		5F13F32A1B259B8E00FF995D /* GameRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F3271B259B8E00FF995D /* GameRole.swift */; };
+		5F13F32B1B259B8E00FF995D /* HighScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F3281B259B8E00FF995D /* HighScore.swift */; };
+		5F13F32E1B259B9F00FF995D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F32C1B259B9F00FF995D /* Player.swift */; };
+		5F13F32F1B259B9F00FF995D /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F32D1B259B9F00FF995D /* PlayerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		5F13F3011B2483B300FF995D /* ScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F13F3071B2483B300FF995D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F13F3081B2483B300FF995D /* ScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTests.swift; sourceTree = "<group>"; };
+		5F13F3261B259B8E00FF995D /* GameClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameClock.swift; sourceTree = "<group>"; };
+		5F13F3271B259B8E00FF995D /* GameRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRole.swift; sourceTree = "<group>"; };
+		5F13F3281B259B8E00FF995D /* HighScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScore.swift; sourceTree = "<group>"; };
+		5F13F32C1B259B9F00FF995D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5F13F32D1B259B9F00FF995D /* PlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,11 @@
 		5F13F2F81B2483B300FF995D /* Score */ = {
 			isa = PBXGroup;
 			children = (
+				5F13F32C1B259B9F00FF995D /* Player.swift */,
+				5F13F32D1B259B9F00FF995D /* PlayerManager.swift */,
+				5F13F3261B259B8E00FF995D /* GameClock.swift */,
+				5F13F3271B259B8E00FF995D /* GameRole.swift */,
+				5F13F3281B259B8E00FF995D /* HighScore.swift */,
 				5F13F2FB1B2483B300FF995D /* Score.h */,
 				5F13F2F91B2483B300FF995D /* Supporting Files */,
 			);
@@ -209,6 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F13F32F1B259B9F00FF995D /* PlayerManager.swift in Sources */,
+				5F13F32E1B259B9F00FF995D /* Player.swift in Sources */,
+				5F13F3291B259B8E00FF995D /* GameClock.swift in Sources */,
+				5F13F32B1B259B8E00FF995D /* HighScore.swift in Sources */,
+				5F13F32A1B259B8E00FF995D /* GameRole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -310,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
