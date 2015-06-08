@@ -27,7 +27,7 @@
 		5F13F32C1B259B9F00FF995D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		5F13F32D1B259B9F00FF995D /* PlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 		5F13F3301B259CEF00FF995D /* ScoreBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
-		5FF57FBA1B261C49004324B6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		5FF57FBA1B261C49004324B6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = Score/README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 		5F13F2EC1B2483B300FF995D = {
 			isa = PBXGroup;
 			children = (
+				5FF57FBA1B261C49004324B6 /* README.txt */,
 				5F13F2F81B2483B300FF995D /* Score */,
 				5F13F2F71B2483B300FF995D /* Products */,
 			);
@@ -68,7 +69,6 @@
 				5F13F3281B259B8E00FF995D /* HighScore.swift */,
 				5F13F2FB1B2483B300FF995D /* Score.h */,
 				5F13F2F91B2483B300FF995D /* Supporting Files */,
-				5FF57FBA1B261C49004324B6 /* README.txt */,
 			);
 			path = Score;
 			sourceTree = "<group>";
